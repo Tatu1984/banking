@@ -77,7 +77,7 @@ function getNestedValue<T>(obj: T, path: string): unknown {
   }, obj);
 }
 
-export function DataTable<T extends Record<string, unknown>>({
+export function DataTable<T extends object>({
   data,
   columns,
   searchable = true,

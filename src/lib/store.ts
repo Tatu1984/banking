@@ -2,8 +2,8 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import {
-  Customer, Account, Transaction, Payment, Card, Loan, LoanApplication,
-  GLEntry, Alert, Workflow, CardDispute, ReconciliationItem,
+  type Customer, type Account, type Transaction, type Payment, type Card, type Loan, type LoanApplication,
+  type GLEntry, type Alert, type Workflow, type CardDispute, type ReconciliationItem,
   customers as initialCustomers,
   accounts as initialAccounts,
   transactions as initialTransactions,
